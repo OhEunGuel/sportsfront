@@ -1,7 +1,13 @@
+import SearchBar from '../../components/SearchBar';
 import MainLayout from '../layout/MainLayout';
 
 function Main() {
-  return <MainLayout>main</MainLayout>;
+  return (
+    <MainLayout>
+      <SearchBar />
+      <div>main</div>
+    </MainLayout>
+  );
 }
 
 export default Main;

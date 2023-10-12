@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Header from './Header';
+import Footer from './Footer';
 
 function MainLayout({ children }) {
   return (
@@ -8,7 +9,9 @@ function MainLayout({ children }) {
         <Header />
       </HeaderBar>
       <Content>{children}</Content>
-      <Footer />
+      <FooterBar>
+        <Footer />
+      </FooterBar>
     </Container>
   );
 }
@@ -46,8 +49,11 @@ const Content = styled.div`
   }
 `;
 
-const Footer = styled.div`
-  max-width: 425px;
+const FooterBar = styled.div`
   width: 100%;
-  background-color: ${(props) => props.theme.background};
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 `;
