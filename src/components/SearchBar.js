@@ -4,7 +4,7 @@ export default function SearchBar() {
   return (
     <SearchContainer>
       <Search>
-        <SearchInput type="search" placeholder="기사 제목을 읿력하세요" />
+        <SearchInput type="search" placeholder="기사 제목을 입력하세요" />
       </Search>
     </SearchContainer>
   );

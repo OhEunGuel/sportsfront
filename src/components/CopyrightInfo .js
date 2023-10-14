@@ -3,7 +3,8 @@ import styled from 'styled-components';
 const CopyrightInfo = () => {
   return (
     <CopyrightContainer>
-      <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+      <p>&copy; 2023 Baseball Information Analysis Site. "Chase Your Dreams."</p>
+      
     </CopyrightContainer>
   );
 };

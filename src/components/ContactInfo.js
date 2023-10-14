@@ -4,8 +4,8 @@ const ContactInfo = () => {
   return (
     <ContactContainer className="contact-info">
       <ContactHeader>Contact Us:</ContactHeader>
-      <p>Email: example@example.com</p>
-      <p>Phone: 123-456-7890</p>
+      <p>Email: oek1228@Gmail.com</p>
+      <p>Phone: 010-7339-6095</p>
     </ContactContainer>
   );
 };
