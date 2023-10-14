@@ -1,5 +1,12 @@
+import MainLayout from "../layout/MainLayout";
+
 function Login() {
-  return <div>login</div>;
+
+  return(
+      <MainLayout>
+        <div>login</div>;
+      </MainLayout>
+  )
 }
 
 export default Login;

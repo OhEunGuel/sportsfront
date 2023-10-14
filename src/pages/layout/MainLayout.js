@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import Header from './Header';
 import Footer from './Footer';
-import ImageSlider from './ImageSlider';
 
 function MainLayout({ children }) {
   return (
@@ -11,7 +10,6 @@ function MainLayout({ children }) {
         <Header />
       </HeaderBar>
       <Content>
-        <ImageSlider /> {/* ImageSlider 컴포넌트 렌더링 */}
         {children}
       </Content>
       <FooterBar>
