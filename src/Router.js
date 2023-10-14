@@ -5,6 +5,7 @@ import Main from './pages/main';
 import Community from './pages/community';
 import Login from './pages/login';
 import MyPage from './pages/mypage';
+import Join from "./pages/join";
 
 const Router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const Router = createBrowserRouter([
       {
         path: 'login',
         element: <Login />,
+      },
+      {
+        path: 'join',
+        element: <Join />,
       },
       {
         path: 'my-page',
