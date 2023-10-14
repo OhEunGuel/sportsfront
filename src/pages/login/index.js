@@ -1,10 +1,11 @@
 import MainLayout from "../layout/MainLayout";
+import SignIn from "../../components/SignIn";
 
 function Login() {
 
   return(
       <MainLayout>
-        <div>login</div>;
+        <SignIn/>;
       </MainLayout>
   )
 }
