@@ -1,5 +1,13 @@
+import MainLayout from "../layout/MainLayout";
+
 function Community() {
-  return <div>community</div>;
+  return(
+      <MainLayout>
+          <div>community</div>;
+      </MainLayout>
+
+      )
+
 }
 
 export default Community;

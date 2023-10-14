@@ -7,8 +7,10 @@ const Header = () => {
     <div className="header">
       <NavbarContainer>
         <NavbarContainer>
-          <NavbarLink to="/my-page"> MyPage </NavbarLink>
-          <NavbarLink to="/login"> Login </NavbarLink>
+            <NavbarLink to="/"> home </NavbarLink>
+            <NavbarLink to="/my-page"> MyPage </NavbarLink>
+            <NavbarLink to="/login"> Login </NavbarLink>
+            <NavbarLink to="/community">Community</NavbarLink>
         </NavbarContainer>
       </NavbarContainer>
     </div>
