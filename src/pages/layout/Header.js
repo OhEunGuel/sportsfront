@@ -30,7 +30,6 @@ const Header = () => {
           {/*    Home*/}
           {/*</Navbar.Brand>*/}
         <NavbarContainer>
-            <Nav>
                 <Nav.Link href="/">Home</Nav.Link>
                 <NavDropdown title="DropDown1" id="collasible-nav-dropdown">
                     <NavDropdown.Item to="/dropdown1/menu1">Menu1</NavDropdown.Item>
@@ -55,7 +54,6 @@ const Header = () => {
                         <NavDropdown.Item href="/join">SignUp</NavDropdown.Item>
                     </NavDropdown>
                 }
-            </Nav>
         </NavbarContainer>
       </NavbarContainer>
     </div>
@@ -69,13 +67,12 @@ export const NavbarContainer = styled.nav`
   height: 50px;
   display: flex;
   flex-direction: row;
+  border: dashed white 1px;
 `;
 
-export const NavbarLinkContainer = styled.div`
-  display: flex;
-`;
-
-
+// export const NavDropdown = styled.menuitem`
+//   color: white;
+// `;
 
 export const NavbarLink = styled(Link)`
   color: white;
