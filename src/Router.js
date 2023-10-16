@@ -6,6 +6,8 @@ import Community from './pages/community';
 import Login from './pages/login';
 import MyPage from './pages/mypage';
 import Join from "./pages/join";
+import Match from "./pages/match";
+import Chat from "./pages/chat";
 
 const Router = createBrowserRouter([
   {
@@ -31,6 +33,14 @@ const Router = createBrowserRouter([
       {
         path: 'my-page',
         element: <MyPage />,
+      },
+      {
+        path: 'match',
+        element: <Match />,
+      },
+      {
+        path: 'chat',
+        element: <Chat />,
       },
     ],
   },
