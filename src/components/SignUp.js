@@ -16,11 +16,11 @@ export default function SignUp() {
     const handleSubmit = async (e) => {
         signUp(values)
             .then((response) => {
-                if (!response.data){
-                    alert("이미 가입된 ID 입니다.")
-                }else{
+                if (response){
                     alert("가입 성공")
                     window.location.href = `/Login`;
+                }else{
+                    alert("이미 가입된 ID 입니다.")
                 }
             }).catch((error) => {
             console.log(error);

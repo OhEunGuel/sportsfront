@@ -7,8 +7,10 @@ import { useLocation } from 'react-router-dom';
 const ChatRoom = () =>{
     const [chatList, setChatList] = useState([]);
     const [chat, setChat] = useState('');
+
     const channelId = useLocation().state.channelId;
     const [user, setUser] = useState({});
+
     const ACCESS_TOKEN = localStorage.getItem('accessToken');
 
     const client = useRef({});
@@ -56,7 +58,7 @@ const ChatRoom = () =>{
     };
 
     const subscribe = () => {
-        client.current.subscribe('/sub/chat', (body) => {
+        client.current.subscribe('/sub/chat/'+channelId, (body) => {
             const json_body = JSON.parse(body.body)
             console.log(typeof json_body)
             setChatList((_chat_list) => [
