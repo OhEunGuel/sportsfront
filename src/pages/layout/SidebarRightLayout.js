@@ -14,18 +14,6 @@ export default SidebarRightLayout;
 const Content = styled.div`
   width: 10%;
   height: 80%;
-<<<<<<< HEAD
-  background-color: ${(props) => props.theme.background};
-  overflow: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-  border: black 1px dashed;
-  float:right;
-`;
-=======
   background-color: #ffffcc;
   border-bottom-color: rgb(188, 232, 241);
   border-bottom-left-radius: 4px;
@@ -65,4 +53,3 @@ const Content = styled.div`
   padding-top: 0px;
   float: right;
 `;
->>>>>>> 5ce4d9c0281e4d993d75d064a008a1b699e976cc

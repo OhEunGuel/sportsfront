@@ -8,12 +8,9 @@ import MyPage from './pages/mypage';
 import Join from "./pages/join";
 import Match from "./pages/match";
 import Chat from "./pages/chat";
-<<<<<<< HEAD
 import Team from "./pages/team";
 import CurrentKbo from "./components/CurrentGame /CurrentKbo";
 import Current from "./pages/current";
-=======
->>>>>>> 5ce4d9c0281e4d993d75d064a008a1b699e976cc
 
 const Router = createBrowserRouter([
   {
@@ -48,7 +45,6 @@ const Router = createBrowserRouter([
         path: 'chat',
         element: <Chat />,
       },
-<<<<<<< HEAD
       {
         path: 'team',
         element: <Team/>
@@ -59,9 +55,6 @@ const Router = createBrowserRouter([
       }
     ],
 
-=======
-    ],
->>>>>>> 5ce4d9c0281e4d993d75d064a008a1b699e976cc
   },
 ]);
 

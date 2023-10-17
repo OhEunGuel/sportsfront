@@ -3,9 +3,6 @@ import styled from 'styled-components';
 import Header from './Header';
 import Footer from './Footer';
 
-<<<<<<< HEAD
-function MainLayout({ children }) {
-=======
 const Container = styled.div`
   min-width: 1440px;
   height: 100vh;
@@ -82,7 +79,6 @@ const FooterBar = styled.div`
 `;
 
 const MainLayout = ({ children }) => {
->>>>>>> 5ce4d9c0281e4d993d75d064a008a1b699e976cc
   return (
     <Container>
       <HeaderBar>
@@ -98,47 +94,4 @@ const MainLayout = ({ children }) => {
   );
 }
 
-<<<<<<< HEAD
 export default MainLayout;
-
-const Container = styled.div`
-  height: 100vh;
-  background-color: ${(props) => props.theme.background};
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-`;
-
-const HeaderBar = styled.header`
-  width: 100%;
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-`;
-
-const Content = styled.div`
-  width: 100%;
-  height: 100%;
-  background-color: ${(props) => props.theme.background};
-  overflow: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-`;
-
-const FooterBar = styled.div`
-  width: 100%;
-  background-color: #333;
-  color: white;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-`;
-=======
-export default MainLayout;
->>>>>>> 5ce4d9c0281e4d993d75d064a008a1b699e976cc
