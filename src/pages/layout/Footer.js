@@ -1,14 +1,24 @@
+<<<<<<< HEAD
+import styled from 'styled-components';
+import ContactInfo from '../../components/ContactInfo';
+import CopyrightInfo from '../../components/CopyrightInfo ';
+=======
 import React from 'react';
 import styled from 'styled-components';
 import CopyrightInfo from '../../components/CopyrightInfo';
+>>>>>>> 5ce4d9c0281e4d993d75d064a008a1b699e976cc
 
 const Footer = () => {
   return (
     <FooterContainer>
+<<<<<<< HEAD
+      <ContactInfo />
+=======
       <FooterSection>(정)국내야구분석사이트</FooterSection>
       <FooterSection>서비스 소개</FooterSection>
       <FooterSection>청소년보호정책</FooterSection>
       <FooterSection>사업자 이메일: Lucky7@seven.com</FooterSection>
+>>>>>>> 5ce4d9c0281e4d993d75d064a008a1b699e976cc
       <CopyrightInfo />
     </FooterContainer>
   );
@@ -16,6 +26,15 @@ const Footer = () => {
 
 export default Footer;
 
+<<<<<<< HEAD
+const FooterContainer = styled.nav`
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`;
+=======
 const FooterContainer = styled.div`
   background-attachment: scroll;
   background-clip: border-box;
@@ -66,3 +85,4 @@ const FooterSection = styled.div`
   margin-bottom: 5px;
   color: #666;
 `;
+>>>>>>> 5ce4d9c0281e4d993d75d064a008a1b699e976cc
