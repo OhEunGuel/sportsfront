@@ -64,21 +64,26 @@ const Header = () => {
 
 export default Header;
 
-export const NavbarContainer = styled.nav`
-  width: 100%;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
+  export const NavbarContainer = styled.nav`
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between; // 가로로 균등하게 배치
+    align-items: center; // 세로로 가운데 정렬
+    `;
+
+  export const NavbarLinkContainer = styled.div`
+    display: flex;
+  `;
+
+  export const NavbarLink = styled(Link)`
+    color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;
 `;
 
-export const NavbarLinkContainer = styled.div`
-  display: flex;
-`;
 
-export const NavbarLink = styled(Link)`
-  color: white;
-  font-size: x-large;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  margin: 10px;
-`;
+
