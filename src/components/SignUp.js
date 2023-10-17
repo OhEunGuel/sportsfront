@@ -16,7 +16,7 @@ const FormWrapper = styled.div`
   border-radius: 10px;
   text-align: center;
   width: 260px; 
-  max-width: 100%; 
+  max-width: 100%; /* 최대 너비를 100%로 설정하여 화면 크기에 따라 조절될 수 있도록 함 */
 `;
 
 const Form = styled.form`

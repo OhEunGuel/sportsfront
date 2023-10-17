@@ -3,6 +3,8 @@ import SidebarRightLayout from "../layout/SidebarRightLayout";
 import ListLayout from "../layout/ListLayout";
 import SidebarLeftLayout from "../layout/SidebarLeftLayout";
 import {NavbarLink} from "../layout/Header";
+import Match from "../match";
+import MatchList from "../../components/MatchList";
 
 function Main() {
   return (
@@ -15,8 +17,8 @@ function Main() {
             <div>side right rank</div>
         </SidebarRightLayout>
         <ListLayout>
-            <NavbarLink to="/community"><button>community</button></NavbarLink>
-            <div>Match List</div>
+            <MatchList/>
+            <NavbarLink to="/match"><button>list 더보기</button></NavbarLink>
         </ListLayout>
     </MainLayout>
   );
