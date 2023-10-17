@@ -78,8 +78,10 @@ const ChatRoom = () =>{
 
     const handleSubmit = (event, chat) => { // 보내기 버튼 눌렀을 때 publish
         event.preventDefault();
-        console.log(chat)
-        publish(chat);
+        if(chat){
+            console.log( "chatting :"+ chat)
+            publish(chat);
+        }
     };
 
     useEffect(() => {
